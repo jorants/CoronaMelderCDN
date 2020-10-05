@@ -109,7 +109,7 @@ if __name__ == "__main__":
 
     percentage = sum(uploadcounts[d] for d in reldays)/sum(sick[d] for d in reldays)
     toreplace["###PERCENTAGE###"] = str(int(100*percentage))
-    toreplace["###SOM###"] = f"{int(100*percentage)}% maal {int(100*percentage*2)}% = {int(200*percentage*percentage)}%"
+    toreplace["###SOM###"] = f"{int(100*percentage+.5)}% maal {int(100*percentage*2+.5)}% = {int(200*percentage*percentage+.5)}%"
 
     res = TEMPLATE
     for k,v in toreplace.items():
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     ax.set_xlabel("Datum")
     ax.plot(T,S)
     ax.plot(T,C)
-    plt.savefig("../docs/plot_abs.png")
+    plt.savefig("../docs/plot_abs.png", transparent=True)
     ax.cla()
 
     ax.xaxis.set_major_formatter(mdates.DateFormatter('%d-%m'))
@@ -141,4 +141,4 @@ if __name__ == "__main__":
 
     ax.set_ylim(0,100)
     ax.plot(T,[100*c/s for c,s in zip(C,S)])
-    plt.savefig("../docs/plot_rel.png")
+    plt.savefig("../docs/plot_rel.png", transparent=True)
