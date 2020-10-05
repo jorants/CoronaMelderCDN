@@ -6,4 +6,4 @@ The `cdn_pb2.py` file was generated using Google's protobuf compiler and should 
 
 First fetch was on 05-10-2020.
 
-The folder `WebsiteGenerator` contains a script that estimates the number of real uploads and generates plots that are hosted on GitHub pages.
+The folder `WebsiteGenerator` contains a script that estimates the number of real uploads and generates plots that are hosted on GitHub pages [here](https://jorants.github.io/CoronaMelderCDN/).
