@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
 
     today = date.today()
-    reldays = [d for d in uploadcounts.keys() if (today-d)/timedelta(days=1) <= 7 and d in sick]
+    reldays = [d for d in uploadcounts.keys() if 1<(today-d)/timedelta(days=1) <= 8 and d in sick]
 
     toreplace["###NUMKEYS###"] = str(sum(uploadcounts[d] for d in reldays))
     toreplace["###NUMSICK###"] = str(sum(sick[d] for d in reldays))
