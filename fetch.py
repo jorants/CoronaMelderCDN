@@ -78,6 +78,3 @@ def handle_keyset(path):
 
 if __name__ == "__main__":
     get_data()
-    os.system("git add -A")
-    os.system(f"git commit -m \"Update {int(time.time())}\"")
-    os.system("git push")
