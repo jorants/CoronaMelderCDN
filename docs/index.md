@@ -13,3 +13,5 @@ En hier het percentage gebruik over tijd.
 
 ![Plot van percentage gebruik over tijd.](plot_rel.png)
 
+Voor onderzoekers en programeurs, er wordt een kopie van de dataset bijgehouden op [github](https://github.com/jorants/CoronaMelderCDN).
+
