@@ -39,7 +39,10 @@ def get_all_counts():
         for keyset in sets:
             keycounts = to_keycounts(enddate,keyset)
             score,hyp  = find_max_hyp(keycounts)
-            total += len(hyp)
+            if hyp is None:
+                total += 0
+            else:
+                total += len(hyp)
 
         counts[enddate.strftime("%Y-%m-%d")] = total
 
