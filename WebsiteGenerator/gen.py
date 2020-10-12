@@ -53,7 +53,8 @@ def get_all_counts():
     #now parse keys again
     return {datetime.strptime(k,"%Y-%m-%d").date() :v for k,v in counts.items()}
 
-def get_sick_data():
+
+def get_VR_sick(VRs):
     # first get the buildid
     r = requests.get("https://coronadashboard.rijksoverheid.nl/veiligheidsregio/VR04/positief-geteste-mensen")
     html = r.text
@@ -63,7 +64,7 @@ def get_sick_data():
 
     totals = {}
 
-    for code in ['VR03','VR04','VR05','VR06','VR08']:
+    for code in VRs:
         r = requests.get(f"https://coronadashboard.rijksoverheid.nl/_next/data/{buildid}/veiligheidsregio/{code}/positief-geteste-mensen.json")
         data = r.json()
 
@@ -76,9 +77,23 @@ def get_sick_data():
 
     return totals
 
+def get_regional_sick_data():
+    return get_VR_sick(['VR03','VR04','VR05','VR06','VR08'])
+
+def get_national_sick_data():
+    return get_VR_sick([f'VR{i:02}' for i in range(1,26)])
+
+def get_sick_data():
+    NATIONAL_START = date(2020,10,10)
+    # first get the buildid
+    regional = {k:v for k,v in get_regional_sick_data().items() if k<NATIONAL_START}
+    national = {k:v for k,v in get_national_sick_data().items() if k>= NATIONAL_START}
+    return {**regional,**national}
+
+
 
 TEMPLATE = """
-De overheid app "Corona Melder" wordt al een tijdje gebruikt in het oosten van het land, maar door hoeveel mensen eigenlijk? Er komen wel berichten naar buiten over het aantal downloads, maar een app downloaden betekend niet dat je hem ook gebruikt. Deze webpagina verzamelt alle data die door gebruikers van de app geüpload wordt nadat ze positief getest zijn, door te kijken hoeveel dit is kunnen we een inschatting maken van het daadwerkelijke gebruik. We zijn op 5 oktober 2020 begonnen met het verzamelen, omdat de data twee weken beschikbaar blijft hebben we alles vanaf 21 september kunnen downloaden. Dit zijn tot nu toe ###NUMBATCH### sets aan data. We kunnen de hoeveelheid geüploade data vergelijken met het aantal positief geteste personen in de regio om een inschatting te maken van het aantal gebruikers.
+De overheid app "Corona Melder" wordt al een tijdje gebruikt in het oosten van het land, en nu ook nationaal, maar door hoeveel mensen eigenlijk? Er komen wel berichten naar buiten over het aantal downloads, maar een app downloaden betekend niet dat je hem ook gebruikt. Deze webpagina verzamelt alle data die door gebruikers van de app geüpload wordt nadat ze positief getest zijn, door te kijken hoeveel dit is kunnen we een inschatting maken van het daadwerkelijke gebruik. We zijn op 5 oktober 2020 begonnen met het verzamelen, omdat de data twee weken beschikbaar blijft hebben we alles vanaf 21 september kunnen downloaden. Dit zijn tot nu toe ###NUMBATCH### sets aan data. We kunnen de hoeveelheid geüploade data vergelijken met het aantal positief geteste personen in de relevante regio (voor 10 oktober in de testregio, vanaf dan nationaal) om een inschatting te maken van het aantal gebruikers.
 
 In een poging de privacy van de gebruikers te waarborgen word er, als er maar weinig nieuwe echte data is, nep data toegevoegd door de overheid. Echter wordt deze nep data op een manier gegenereerd die deels te onderscheiden is van de echte data. Een korte berekening maakt het mogelijk te schatten hoeveel echte gebruikers hun data hebben geüpload. Hierbij proberen we het aantal te overschatten, zodat we het meest positieve beeld neer zetten.
 
@@ -97,8 +112,6 @@ Voor onderzoekers en programmeurs: er wordt een kopie van de dataset bijgehouden
 """
 
 if __name__ == "__main__":
-
-
     uploadcounts = get_all_counts()
     sick = get_sick_data()
 
@@ -107,7 +120,7 @@ if __name__ == "__main__":
 
 
     today = date.today()
-    reldays = [d for d in uploadcounts.keys() if 1<(today-d)/timedelta(days=1) <= 8 and d in sick]
+    reldays = [d for d in uploadcounts.keys() if 0<(today-d)/timedelta(days=1) <= 7 and d in sick]
 
     toreplace["###NUMKEYS###"] = str(sum(uploadcounts[d] for d in reldays))
     toreplace["###NUMSICK###"] = str(sum(sick[d] for d in reldays))
