@@ -8,14 +8,13 @@ import json
 from shutil import copyfile
 import requests
 
-def load_all_ketsets():
+def load_all_keysets():
     starts,ends =[],[]
     keysets = os.listdir("../exposurekeyset")
     keys = {}
     for keyset in keysets:
         with open(os.path.join("../exposurekeyset",keyset,"data","export.json")) as fp:
             data = json.load(fp)
-
         enddate = date.fromtimestamp(int(data["endTimestamp"]))
         if enddate not in keys:
             keys[enddate] = []
@@ -23,12 +22,23 @@ def load_all_ketsets():
     return keys
 
 
+def get_keys_uploaded():
+    today = date.today()
+    keys = load_all_keysets()
+    counts = {}
+    for enddate,sets in keys.items():
+        if enddate == today:
+            continue
+
+        counts[enddate.strftime("%Y-%m-%d")] = sum(len(keyset) for keyset in sets)
+    return counts
+
 def get_all_counts():
     with open("done.json") as fp:
         counts = json.load(fp)
 
     today = date.today()
-    keys = load_all_ketsets()
+    keys = load_all_keysets()
     for enddate,sets in keys.items():
         if enddate.strftime("%Y-%m-%d") in counts:
             continue
@@ -114,6 +124,7 @@ Voor onderzoekers en programmeurs: er wordt een kopie van de dataset bijgehouden
 if __name__ == "__main__":
     uploadcounts = get_all_counts()
     sick = get_sick_data()
+    raw_key_counts = get_keys_uploaded()
 
     toreplace = {}
     toreplace["###NUMBATCH###"] = str(len(os.listdir("../exposurekeyset")))
@@ -160,3 +171,17 @@ if __name__ == "__main__":
     ax.set_ylim(0,100)
     ax.plot(T,[100*c/s for c,s in zip(C,S)])
     plt.savefig("../docs/plot_rel.png", transparent=True)
+    ax.cla()
+
+    T,R = zip(*sorted(raw_key_counts.items()))
+
+    ax.set_ylabel("# Sleutels")
+    ax.set_xlabel("Datum")
+
+    ax.set_ylim(0,max(R)*1.1)
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%d-%m'))
+
+    ax.plot(T,R)
+
+    plt.savefig("../docs/plot_raw.png", transparent=True)
+    ax.cla()
