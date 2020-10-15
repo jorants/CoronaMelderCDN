@@ -11,4 +11,4 @@ Running `make` will fetch the keys, update the website, and push to github.
 
 To use any of the scripts, first install the the requirements. We advise you to make a virtual enviorment first, but when in a hurry you can run `pip3 install --user -r requirements.txt`.
 
-First fetch was on 05-10-2020, subsequent fetches are timestampt bot in the meta date file and in the commit message.
+First fetch was on 05-10-2020, subsequent fetches are timestamped both in the meta date file and in the commit message.
