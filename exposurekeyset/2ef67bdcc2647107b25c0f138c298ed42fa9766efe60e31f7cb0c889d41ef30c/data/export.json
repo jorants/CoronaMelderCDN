@@ -1,0 +1,916 @@
+{
+  "startTimestamp": "1602784981",
+  "endTimestamp": "1602871381",
+  "region": "NL",
+  "batchNum": 1,
+  "batchSize": 1,
+  "signatureInfos": [
+    {
+      "verificationKeyVersion": "v12",
+      "verificationKeyId": "204",
+      "signatureAlgorithm": "1.2.840.10045.4.3.2"
+    }
+  ],
+  "keys": [
+    {
+      "keyData": "ADp5XYjOGtNxgbW+G0LmBg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "AGupBgVC7kpkwav/MF9JPA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671344,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "AHdwPVJfSyNQvPwT7cGgXA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "AVYOuHJ2A+MB+DBcDq47rw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "A0glPkk91Zm6NuM2X6rKrQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670480,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "BZffXk5VeMEtYkPiadopcw==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670480,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "CSL5BJRPrkGO+DrtQcy48A==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Cl4k5am4H9ZlDkXCC1BzgQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "CzX4unw5XpRhK/2X4adD8A==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "DVzi3/6cFdVcxrB3MvK8cA==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "FdYWpDzBJfk5IT/4lCJ8Sg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "GL926odcFbJlKcINyeevnw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "GRS3a0FxHwi2PxCx9BuOGw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "HvffvmTRGm0ufDFJ6i8h0g==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "HzrSq2zXw6LTk5HBYcIRfg==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "H4mXDniryepzIjozaOE87A==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "IXRxV3JIdsHSmhtzVm4SiQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "ItoED1k+QEFEg6QPIYYA3Q==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "I9hdUEIwRzpHIYCdhltbyQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "JCzPA8oP9hZSlVdKJQsXBQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "JIbrTK9CTTEVgvftdhvYfg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "J01UWsDGNOlnqg0168D7jg==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "KWz9aoGYta7JLaYIXYgUGw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "KXZqwi0MJh4ONavD+z4Vkw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Kqjwl2+4MIpprxe9er0lnw==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "LLkg5ixhmrfuLBizqLFLKw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "LL0hFY8UkCQJMfptcSFecw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670480,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "LZjh751C65m4SrCpo4apbQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "LeGKG3Gk+enKFF4MmlZi5w==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669472,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "L8TfmxGD8n4fAbcZY5yUYQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "MZCCV28U0fs+9kXF8lSkwA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "MZd1Rg8X2seR3t25JB6/Bw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "NMw1GE4xvzyBm04Yh5C3rg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "NzSD6Ng1qGNyac88aUTfXg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Nz/PeGAYWFQoKhwJdqWb1w==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "OWr9TpBPb1yybFxxReAyYQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "PfOUqyaWgN/x0xXrTASg1Q==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "PxEUeXpDP8Gl0Q8j1ZBLHg==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "QNhWBCGBJLiPqDgSt+Xg4A==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670480,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "QWyNcoBO73sAXa12GrhMIg==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "QaTgkdxmgWTXQyIRq1+U2w==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "QsAM8wpd+alpMEVXFHPLvA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "QzSc00jAEYO5IoKkU/c1mA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Q+qCWfODvPW4YDoL7MW+Ug==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "RVFOGEgumfKPMl1KPZj/Xw==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "RbLXuH/PXXpFBG3H/d3IoQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Rcf31ZBsMe4FjPftF5TTKw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "RlZDpqatal9slUKY79WrIQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Sdw3w+hxc9k+DG/FMw6eLQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "T/Tf+ViS5M8U3oBrKSniuw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671344,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "T/2IPEWyFQyNZ+jysF4zhg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "UAHmdyU03RDJZU5zqyhIRA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Ux0zioC81OOFmSydEg7saA==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "VN6Sg0nJGNzsfkXwAfuQng==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "VeAN62LL2JqJBmw4vKhhng==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "V2z86G6CO9OaNBIydKg9cg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670048,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "WB+zcju/vFGIioqjEn5Ziw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "WNlM7Pl9YaO+Eq5I+MDTYg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "XunXM1OWF+5gAqJIlLA9Tw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Y20R2y4UjRUfZwkHS810Fg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670048,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Y9uJN6agqzruj75ZQ8U0gQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "ZNoRWltZkF4cjC4ectXKug==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670480,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "Zd3Imo+DF57RfZZ0Fqxwag==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "aSTGACGPT8/X+ny534ZCyw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "ah8KqsYb9K4p68g3C0jSVA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "ah86IvWXQOpec92tniuYGQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "aiZaVETUTehQmIyfcNjCSg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "a28EzQF+okG7nvosks2XtQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "bHw25ig1z00x9Ax3gpvY/w==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "bor8PjNoXod0Y3LWW1uLwg==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "bpJCGEPARsr+z033/VpNSQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "clBi7DM6ikLUPkTbwMMLzQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "dc7Rwr8UEi6pS7TY0iXxsA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "d9NnO2FjuuenfcD0a3V2/Q==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670048,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "eKgXN0HCmRz19HkExV0F4g==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "eeC38UY1ODgck7bG8ZMcuw==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "eism0+9PjeCciHMmFJEPbg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "fb7sYW6fQ05EqVPj838v8A==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "g3/AMoDrvl4zSC9O2Ei3AA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "hcrBmOJPQW8vagL8reLm1A==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "iIDJN0p17YTUa0lWo4vSSA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "ioPXcbAL2buGL9LgKkcnsA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "iufVr9O1i0kPaMnID8Mu3g==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "i8Zq9Ih6pviftPOoozg3fw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "jDZwU2A1RCn4HKmfdZ6SLg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "jyQ/RLJWjqfqnxOEWCv93w==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "j4fBbLSYjRRSkjo4RPcL/A==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671344,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "klrk7rze6X9vrsv/gSxlEQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "kngsWILihLPEGwXRpbSsGg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "k/yIIoj4uOMs0d1SbQ9Tsg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "l1spmNZ48QNf/dcYOspsIw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "ngTy8HCvzxa+GOQsjFrmFA==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669472,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "oWRJEoOSKu8MSY3+yc+PAQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "paeLr08aXeSs2kKm2sPeKQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "plJKo0DhuGqDCEamuWYzgA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "punmbwiWWV67jqxvF8xJ/g==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "qGdOvbKBhAJ29nhO6ekgsw==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "qoinnKbAnv13J4261bsqXQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "q6tCiJTJKBXI9bS1SyUXPQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "rfgZI+piHLcqofo3U44XgA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "rfvky7Zlx3TMAKnb3UAvMw==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "rp52tGnJsxRHUI+K7RiH1g==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670480,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "r9612DeUzfzSa21iE2xwEw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "sIGv7bi3I0mPNA63zyWO2A==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "tAtYNS3HPNBmocn9fieGlg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "taILIjcJUe4bdxYriZ/tnw==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "tklaYwFZBJoMy7yK8imlJA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "tqjxQkrpIkzL0g/syt8leg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "t1mZiqNrZDwAmeONSf+3bg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "uY3B9hOu4QeMIFOr2jxvvQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "vMVMxkrIFtJWR78CmxRrZQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "vwUsLnT5LNh67pjAFKqWdw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "v4AOzC6sHHXr5y0tfYg9Wg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "wFLC3tmxwpkp8F6H2pCMWg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "wdAPjr22AsT6K5eXM8Peag==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "wlaR+6fRh5+yuKoizTn82Q==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669904,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "xpy4ajxDSlDxS9y0/fN5Vw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "yHnANmknmEUp/HQxiErSew==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "yV7R4x4I6W5fWQ+8HWAuGA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "yrRfn6aSV3TPXWNaGUqJgQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "z4nLmsOkLzSGJpN+CmzdTA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "0DtG9v36GljYQyioK+hMUQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "1QloU7efhD9aJsLRK2vKOg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "2UGMmJ8gMsf1YAaVRZ80sA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670048,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "3DOVe9xMYh9SqbSKcWrtmg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "3NH6kuNFrBCDRJfEL6C+Kg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "3QalSxwg8MZXeNXWd0SgcQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669472,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "3h4UfWoMuU1kSz7JcMQrWQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669472,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "5GX80tbHt42gbbm118O9BA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "5VmclbiPbDqgqdjMc3hrLA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "5dbIx2JL2njKuJ0n8rYDLA==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "5/++E47EdzlvnNBYh6dKTg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670048,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "6gGyuQ1JdBmuKK12IBqtiQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "6kvlIYb7DYpExUFrJN4R3g==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669472,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "7P984fJsbzZWFlGLe/FRyg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670624,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "7w4sSWZvLYNp3D6ndfZUsg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2669760,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "71DsZJRwmw9HiAGh7bR/Lg==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "8QctFMoB2j/+Zoph6Q7nNQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "8bitOsesi3REQNyO3k/X6A==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2669328,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "8pe1oo6EHaET7HS3st+j1Q==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "883oHZmnUApON48X+lr5iQ==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2671056,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "9Iub0wh5cZBHc6edEaorqg==",
+      "transmissionRiskLevel": 1,
+      "rollingStartIntervalNumber": 2670336,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "9UN3+JNjmzO+RGF1x9OFcA==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670912,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "9dVGTk59gr7jWa16F7Vvfg==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2669616,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "9od8VFW4R//I3pTeqvmkyQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "+PTHDFbtuRA+ek8pHAggGw==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670768,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "+c2wItwcUilTqGbMO8DBAQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "+8VNkt+krnWFadAoWsKJ+A==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2671200,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "/LXVwCB+CGjYCrKT5Ev4CQ==",
+      "transmissionRiskLevel": 2,
+      "rollingStartIntervalNumber": 2670192,
+      "rollingPeriod": 144
+    },
+    {
+      "keyData": "/eVB0tWGqXvc2QRjo+L0AQ==",
+      "transmissionRiskLevel": 3,
+      "rollingStartIntervalNumber": 2670048,
+      "rollingPeriod": 144
+    }
+  ]
+}
