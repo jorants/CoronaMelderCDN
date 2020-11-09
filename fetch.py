@@ -23,7 +23,7 @@ def file_content_from_zip_url(url, filename):
 
 def avalible_data():
     content = file_content_from_zip_url(
-        "https://productie.coronamelder-dist.nl/v1/manifest", "content.bin"
+        "https://productie.coronamelder-dist.nl/v2/manifest", "content.bin"
     )
 
     for key,data in json.loads(content).items():
