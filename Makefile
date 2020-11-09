@@ -6,7 +6,7 @@ fetch:
 	python3 fetch.py
 
 compile:
-	cd WebsiteGenerator; python gen.py
+	cd WebsiteGenerator; python3 gen.py
 
 push:
 	git add -A
