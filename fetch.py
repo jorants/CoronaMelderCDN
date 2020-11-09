@@ -47,7 +47,7 @@ def get_data():
             if not os.path.isdir(folder):
                 os.mkdir(folder)
             os.mkdir(path)
-            url = f"https://productie.coronamelder-dist.nl/v1/{folder}/{item}"
+            url = f"https://productie.coronamelder-dist.nl/v2/{folder}/{item}"
             meta = {
                 'url':url,
                 'unix timestamp fetched':int(time.time()),
